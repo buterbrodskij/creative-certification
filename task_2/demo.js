@@ -46,12 +46,6 @@ function removeTodoItemById(id) {
   todo = todo.filter(item => item._id !== id);
 }
 
-// Вынести в старт
-getList();
-renderAllItem();
-addTodoInput.addEventListener('keypress', addItemOnEnterPress)
-
-
 function createTodoItem(data) {
   const item = document.createElement("li");
   const span = document.createElement("span");
@@ -195,3 +189,9 @@ function remove_list(id) {
   saveList();
   displayTitle();
 }
+
+(function () {
+  getList();
+  renderAllItem();
+  addTodoInput.addEventListener('keypress', addItemOnEnterPress)
+})();
