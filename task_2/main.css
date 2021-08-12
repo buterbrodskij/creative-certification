@@ -1,0 +1,117 @@
+body{
+	background: #9fe29f;
+}
+
+
+ul{
+	margin-top: 50px;
+	font-size: 20px;
+	list-style: none;
+	padding-left: 0px;
+}
+
+ul li{
+	width: 80%;
+}
+
+.glyphicon-remove{
+	float: right;
+	color: #b31a1a;
+}
+
+.list-item{
+	padding-left: 20px;
+}
+
+#itemname{
+	background: #f9f6ea;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    width: 50%;
+    padding: 0.5% 2%;
+    border: 1px solid #d8b836;
+}
+
+#itemname:focus {
+    outline: none !important;
+}
+.glyphicon-trash{
+	padding-top: 5px;
+}
+
+#list li{
+background: #fff3c1; 
+     padding: 0.2% 1%; 
+}
+
+#donelist li{
+background: #cdfdcd; 
+     padding: 0.2% 1%; 
+}
+
+.todolist{
+        padding: 1% 20%;
+    background: #f7e8ac;
+}
+
+.donelist{
+        padding: 1% 20%;
+    background: #9fe29f;
+}
+
+.container-fluid{
+	padding-right: 0px; 
+     padding-left: 0px; 
+	
+}
+
+hr{
+	border-color: #000;
+}
+
+
+@media only screen and (max-width: 950px) {
+
+.todolist{
+        padding: 2% 10%;
+    background: #f7e8ac;
+}
+
+.donelist{
+        padding: 2% 10%;
+    background: #9fe29f;
+}
+
+
+}
+@media only screen and (max-width: 742px) {
+
+
+.todolist{
+        padding: 3% 5%;
+    background: #f7e8ac;
+}
+
+.donelist{
+        padding: 3% 5%;
+    background: #9fe29f;
+}
+	
+#itemname{
+	
+	width: 60%;
+	
+}
+
+	}
+
+@media only screen and (max-width: 480px) {
+	
+#itemname{
+	
+	width: 80%;
+	
+}
+
+	}

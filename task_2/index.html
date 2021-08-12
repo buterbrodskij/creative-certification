@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+	<head><title>Todo List</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="main.css">
+	</head>
+<body>
+
+<div class="container-fluid">
+
+<section class="todolist">
+<div class="row">
+<div class="col-sm-10 col-xs-10">
+<h1 id="headline">To Do List</h1>
+</div>
+<div class="col-sm-2 col-xs-2">
+	<h3 class="glyphicon glyphicon-trash" onclick="remove_list('list')"></h3>
+</div>
+</div>
+<hr>
+<div id="todo" class="todoarea">
+
+<ul id="list">
+
+</ul>
+<h3 id="noitem"> No Items in the list. </h3>
+<input type="text" id="itemname" placeholder="Type Item Name and hit Enter" />
+</div>
+</section>
+<section class="donelist">
+
+
+<div class="row">
+<div class="col-sm-10 col-xs-10">
+<h1 id="headline">Done</h1>
+
+</div>
+<div class="col-sm-2 col-xs-2">
+	<h3 class="glyphicon glyphicon-trash" onclick="remove_list('donelist')"></h3>
+</div>
+</div>
+
+<hr>
+<div id="done" class="donearea">
+<ul id="donelist">
+
+</ul>
+
+<h3 id="doneitem"> No Done Items. </h3>
+</div>
+
+</section>
+
+
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="demo.js"></script>
+
+
+</body>
+</html>
